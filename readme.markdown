@@ -9,6 +9,11 @@ Some parts may be messy, weird, or break sometimes. I'm learning as I go and imp
 - Minecraft 1.21.11
 - Support for other versions coming soon...
 
+## Recommend Meteor Client settings
+https://mega.nz/file/yuJ2BJqZ#eEO5Z8SHaEn6OtaYMIfLb5Bbdq--rpNFm9zwRYt4qWs
+### How do I configure the settings?
+- Paste `meteor-client` folder to `.minecraft` folder
+
 ## Releases
 https://github.com/nyahsatoru/SatoAddon/releases
 
