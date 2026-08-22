@@ -7,7 +7,7 @@ Some parts may be messy, weird, or break sometimes. I'm learning as I go and imp
 
 ## Supported versions
 - Minecraft 1.21.11
-Support for other versions coming soon...
+- Support for other versions coming soon...
 
 ## Releases
 https://github.com/nyahsatoru/SatoAddon/releases
