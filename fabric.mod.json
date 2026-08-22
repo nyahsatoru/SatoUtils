@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "satoaddon",
+  "version": "0.3.0",
+  "name": "SatoAddon",
+  "description": "A stupid utility mod",
+  "authors": [
+    "nyahsatoru"
+  ],
+  "contact": {
+    "homepage": "https://github.com/nyahsatoru/SatoAddon",
+    "issues": "https://github.com/nyahsatoru/SatoAddon/issues",
+    "sources": "https://github.com/nyahsatoru/SatoAddon"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.nyahsatoru.satoaddon.SatoAddon"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "255,170,0",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.11",
+    "meteor-client": "*"
+  },
+  "mixins": [
+    "mixins.baritone-meteor.json"
+  ]
+}

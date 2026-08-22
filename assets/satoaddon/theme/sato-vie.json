@@ -1,0 +1,28 @@
+{
+  "name": "Sato",
+  "base": "MeteorGuiTheme",
+  "visualReference": "67Client",
+  "palette": {
+    "accent": "#FF3E9C",
+    "panel": "#1A1520",
+    "background": "#121016",
+    "outline": "#AE68C0",
+    "headerTop": "#1D1826",
+    "headerBottom": "#151019",
+    "textPrimary": "#EDEAF2",
+    "textMuted": "#9A93A8",
+    "textDisabled": "#6D6680",
+    "sliderLeft": "#FF3E9C",
+    "sliderRight": "#2B2739"
+  },
+  "hudElements": [
+    "Top Info",
+    "Coordinates",
+    "Functions (Grouped)",
+    "Hotkeys",
+    "Player HUD",
+    "Region Map",
+    "Spotify HUD",
+    "Staff Lists"
+  ]
+}

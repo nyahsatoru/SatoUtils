@@ -1,0 +1,13 @@
+package baritone.api.event.events.type;
+
+public class Cancellable implements ICancellable {
+   private boolean cancelled;
+
+   public final void cancel() {
+      this.cancelled = true;
+   }
+
+   public final boolean isCancelled() {
+      return this.cancelled;
+   }
+}
