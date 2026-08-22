@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "satoutils",
+  "version": "0.1.0",
+  "name": "SatoUtils",
+  "description": "SatoUtils with integrated SatoMine/Baritone runtime and whitelist-safe SellGUI autosell.",
+  "authors": [
+    "nyahsatoru"
+  ],
+  "contact": {
+    "issues": "https://github.com/nyahsatoru/SatoUtils/issues",
+    "homepage": "https://github.com/nyahsatoru/SatoUtils"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.satomine.SatoMineAddon"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "255,170,0",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.11",
+    "meteor-client": "*"
+  },
+  "mixins": [
+    "mixins.baritone-meteor.json"
+  ]
+}
