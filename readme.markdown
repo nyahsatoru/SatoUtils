@@ -1,8 +1,10 @@
 # SatoAddon - A stupid utility. :>
 
+### This project will receive very few updates; I have many other things to do.
+
 A small Minecraft utility mod made for fun and convenience.
 
-This is my first real project, so yeah... **I'm still kinda dumb at this.**
+This is my first project, so yeah... **I'm still kinda dumb at this.**
 Some parts may be messy, weird, or break sometimes. I'm learning as I go and improving things along the way.
 
 ## Supported versions
